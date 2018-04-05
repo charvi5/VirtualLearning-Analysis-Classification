@@ -13,7 +13,20 @@ The open source dataset was obtained from: [Open University Analytics dataset](h
 
 **Approach**
 -----------------------------------------------------------------------------------------------------------------
-Exploration of data using descriptive statistics and visual representations helped understand the data discrepancies and how different variables within the dataset effect student engagement and performance. 
+Exploration of data using descriptive statistics and visual representations helped understand the data discrepancies and how different variables within the dataset effect student engagement and performance.  
+[Decision Tree classifier](https://en.wikipedia.org/wiki/Decision_tree) was also used here to see variable importances for determining student performance and if it conforms with the insights obtained from Exploratory Data analysis.  
+
+Due to the huge class imbalance, [Logistic regression](https://en.wikipedia.org/wiki/Logistic_regression) was applied on downsampled data to classify a student's overall performance as Pass, Fail, Withdrawal according to its engagement with the course and previous marks obtained. Confusion matrix was used as an evaluation criteria and the following plot was obtained for the same:  
+<img src="https://github.com/charvi5/VirtualLearning-Analysis-Classification/blob/master/image1.png" height="300" width = "450">
+
+This performance was compared with classification model built using [Random Forest](https://en.wikipedia.org/wiki/Random_forest) as it handles imbalanced classes well. Following confusion matrix was obtained for Random Forest:  
+<img src="https://github.com/charvi5/VirtualLearning-Analysis-Classification/blob/master/image2.png" height ="300" width = "450"> 
+
+Visual representation of evaluation criteria help us better understand the ongoings of model and helps evaluate the tradeoff between [Type I and TypeII errors](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors).
+
+This analysis can be useful for both course instructors and companies offering online courses to understand how to measure a courses's and student's success rate and the factors to most focus on.  
+The analysis can be further improved by applying more sophisticated classification models to increase model accuracy.  
+Clustering can also be employed here to identify similar students on the basis of their demographics and engagement.
 
 **Installing libraries and packages**
 -----------------------------------------------------------------------------------------------------------------
