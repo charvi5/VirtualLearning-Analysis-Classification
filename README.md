@@ -22,7 +22,7 @@ Due to the huge class imbalance, [Logistic regression](https://en.wikipedia.org/
 This performance was compared with classification model built using [Random Forest](https://en.wikipedia.org/wiki/Random_forest) as it handles imbalanced classes well. Following confusion matrix was obtained for Random Forest:  
 <img src="https://github.com/charvi5/VirtualLearning-Analysis-Classification/blob/master/image2.png" height ="300" width = "450"> 
 
-Visual representation of evaluation criteria help us better understand the ongoings of model and helps evaluate the tradeoff between [Type I and TypeII errors](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors).
+Visual representation of evaluation criteria help us better understand the ongoings of model and helps evaluate the tradeoff between [Type I and Type II errors](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors).
 
 This analysis can be useful for both course instructors and companies offering online courses to understand how to measure a courses's and student's success rate and the factors to most focus on.  
 The analysis can be further improved by applying more sophisticated classification models to increase model accuracy.  
